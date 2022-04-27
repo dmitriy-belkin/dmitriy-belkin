@@ -39,6 +39,14 @@ My name is Dmitriy Belkin and I have been working in IT industry for about 13 ye
 </a>
 <br />
 <br />
+<a href="https://github.com/dmitriy-belkin/csssr">
+<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=csssr&theme=default" />
+</a>
+<a href="https://github.com/dmitriy-belkin/platform-gfc-appium">
+<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=default" />
+</a>
+<br />
+<br />
 <a href="https://github.com/dmitriy-belkin/calculator">
 <img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=default" />
 </a>
