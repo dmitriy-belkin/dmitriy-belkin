@@ -65,7 +65,7 @@ My name is Dmitriy Belkin and I have been working in IT industry for about 13 ye
 ## Reach Me
 [![Linkedin Badge](https://img.shields.io/badge/-dmitriybelkin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dmitriybelkin/)](https://www.linkedin.com/in/dmitriybelkin/) 
 [![Twitter Badge](https://img.shields.io/badge/-Demetrius.Belkin-1ca0f1?style=flat-square&logo=facebook&logoColor=white&link=https://facebook.com/Demetrius.Belkin)](https://facebook.com/Demetrius.Belkin)
-[![StackOverflow Badge](https://img.shields.io/badge/-dmitriy-belkin-2d2d2d?style=flat-square&logo=StackOverflow&logoColor=orange&link=https://stackoverflow.com/users/10249673/dmitriy-belkin)](https://stackoverflow.com/users/10249673/dmitriy-belkin)
+[![StackOverflow Badge](https://img.shields.io/badge/-dmitriybelkin-2d2d2d?style=flat-square&logo=StackOverflow&logoColor=orange&link=https://stackoverflow.com/users/10249673/dmitriy-belkin)](https://stackoverflow.com/users/10249673/dmitriy-belkin)
 
 
 <br />
