@@ -29,7 +29,7 @@ My name is Dmitriy Belkin and I have been working in IT industry for about 13 ye
 ## :flashlight: Softwares:
 <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img align="center" alt="Pycharm" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/PyCharm_Icon.svg" />&nbsp;&nbsp;</a>
 <a href="https://developer.android.com/studio" target="_blank"><img align="center" alt="AndroidSDK" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Android_Studio_Icon_%282014-2019%29.svg" />&nbsp;&nbsp;</a>
-
+<br />
 
 ##
 <img align='right' width=46% src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&show_icons=true">
