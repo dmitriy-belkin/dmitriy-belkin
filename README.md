@@ -31,8 +31,10 @@ My name is Dmitriy Belkin and I have been working in IT industry for about 13 ye
 <a href="https://developer.android.com/studio" target="_blank"><img align="center" alt="AndroidSDK" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Android_Studio_Icon_%282014-2019%29.svg" />&nbsp;&nbsp;</a>
 
 
+##
 <img align='right' width=46% src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&show_icons=true">
 <img align="center" width=46% src="https://github-readme-streak-stats.herokuapp.com/?user=dmitriy-belkin&" alt="dmitriy-belkin" />
+<br />
 
 
 ## :godmode: My projects
