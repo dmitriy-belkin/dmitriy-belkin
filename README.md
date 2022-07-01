@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-My name is Dmitriy Belkin and I have been working in IT industry for about 14 years. I have knowledges and experience in a wild range of things. For instance, QA, Product Manager, Project Manager, Help Desk and Frontend development. I am especially interested in QA and I want to improve my skills in this topic.
+My name is Dmitriy Belkin and I have been working in IT industry for about 15 years. I have knowledges and experience in a wild range of things. For instance, QA, Product Manager, Project Manager, Help Desk and Frontend development. I am especially interested in QA and I want to improve my skills in this topic.
 
 ## :computer: Languages and Tools:
 <a href="https://www.python.org" target="_blank"><img align="center" alt="Python" width="25px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/python-5.svg?raw=true"/>&nbsp;&nbsp;</a>
