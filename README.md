@@ -1,20 +1,36 @@
-# Hi there 👋
+
+<h1> Hi there 👋 </h1>
 
 <!--
-**dmitriy-belkin/dmitriy-belkin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Nice to see you in my readme source. Enjoy my fun ^_^
 -->
-My name is Dmitriy Belkin and I have been working in IT industry for about 17 years. I have knowledges and experience in a wild range of things. For instance, QA, Product Manager, Project Manager, Help Desk and Frontend development. I am especially interested in QA and I want to improve my skills in this topic.
+
+My name is Dmitriy Belkin and I have been working in IT industry since 2009 year. I have knowledges and experience in a wild range of things. For instance, QA, Product Manager, Project Manager, Help Desk and Development. I am especially interested in QA & Development and I want to improve my skills in this topic.
+
+## ⚡️ A Few Quick Facts
+<img align="left" height="260vh" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
+<!--
+This part was an absolute nightmare to figure out. Turns out that Githubs extended markdown is scuffed as hell. Left-embedded gifs break everything, so what you see below is the only way to fix it. I seem to be the only one to have even gotten that far.
+-->  
+
+<div>
+    <table>
+        <thead>
+<td rowspan="9"><img align="left" height="260vh" src="https://i.gifer.com/EgUx.gif"></td>
+<tr> - 🧑 I'm a `32` year old male</tr>
+<tr> - 🔭 I’m currently working on Automation test (API, Mobile, Web, Stress... </tr>
+<tr> - 🌱 I’m currently learning `Python`, `Golang`, `Java` </tr>        
+<tr> - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="16">  I enjoy working on:<br>
+&nbsp; ∘ &nbsp; 📊 Pentesting related Projects<br>
+&nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
+&nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br> </tr>
+<tr> - 💬 Ask me about Python, AI, Security, Qubes OS </tr>
+<tr> - 📙 Check out my [Website](https://itionspace.com) </tr>
+<tr> - 🎉 Fun-Fact: I ❤️ Geek and Cookies🍪 </tr>
+        </thead>
+    </table>
+</div>
+<br><br>
 
 ## :computer: Languages and Tools:
 <a href="https://www.python.org" target="_blank"><img align="center" alt="Python" width="25px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/python-5.svg?raw=true"/>&nbsp;&nbsp;</a>
