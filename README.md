@@ -1,6 +1,3 @@
-
-<h1> Hi there 👋 </h1>
-
 <!--
 Nice to see you in my readme source. Enjoy my fun ^_^
 -->
@@ -14,9 +11,11 @@ This part was an absolute nightmare to figure out. Turns out that Githubs extend
 -->  
 
 <div>
-    <table>
+    <table style="opacity: 0.7;">
         <thead>
-<td rowspan="9"><img align="left" height="260vh" src="https://i.gifer.com/EgUx.gif"></td>
+<td rowspan="9">
+    <img align="left" src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" height="220vh">
+</td>
 <tr> - 🧑 I'm a `32` year old male</tr>
 <tr> - 🔭 I’m currently working on Automation test (API, Mobile, Web, Stress... </tr>
 <tr> - 🌱 I’m currently learning `Python`, `Golang`, `Java` </tr>        
