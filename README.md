@@ -5,30 +5,25 @@ Nice to see you in my readme source. Enjoy my fun ^_^
 My name is Dmitriy Belkin and I have been working in IT industry since 2009 year. I have knowledges and experience in a wild range of things. For instance, QA, Product Manager, Project Manager, Help Desk and Development. I am especially interested in QA & Development and I want to improve my skills in this topic.
 
 ## ⚡️ A Few Quick Facts
-<img align="left" height="260vh" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
+
 <!--
 This part was an absolute nightmare to figure out. Turns out that Githubs extended markdown is scuffed as hell. Left-embedded gifs break everything, so what you see below is the only way to fix it. I seem to be the only one to have even gotten that far.
 -->  
 
 <div>
-    <table style="opacity: 0.7;">
-        <thead>
-<td rowspan="9">
-    <img align="left" src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" height="220vh">
-</td>
-<tr> - 🧑 I'm a `32` year old male</tr>
-<tr> - 🔭 I’m currently working on Automation test (API, Mobile, Web, Stress... </tr>
-<tr> - 🌱 I’m currently learning `Python`, `Golang`, `Java` </tr>        
-<tr> - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="16">  I enjoy working on:<br>
+<img align="left" src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" height="220vh">
+<img align="left" height="260vh" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
+</div>
+- 🧑 I'm a `32` year old male<br>
+- 🔭 I’m currently working on Automation test (API, Mobile, Web, Stress...<br>
+- 🌱 I’m currently learning `Python`, `Golang`, `Java`<br>
+- <img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="16px">  I enjoy working on:<br>
 &nbsp; ∘ &nbsp; 📊 Pentesting related Projects<br>
 &nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
-&nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br> </tr>
-<tr> - 💬 Ask me about Python, AI, Security, Qubes OS </tr>
-<tr> - 📙 Check out my [Website](https://itionspace.com) </tr>
-<tr> - 🎉 Fun-Fact: I ❤️ Geek and Cookies🍪 </tr>
-        </thead>
-    </table>
-</div>
+&nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br>
+- 💬 Ask me about Python, AI, Security, Qubes OS<br>
+- 📙 Check out my [Website](https://itionspace.com)<br>
+- 🎉 Fun-Fact: I ❤️ Geek and Cookies🍪<br>
 <br><br>
 
 ## :computer: Languages and Tools:
