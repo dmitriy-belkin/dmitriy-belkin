@@ -184,7 +184,7 @@ Gotta love some stats
 Aaaaaand thats it. Vewy nice
 -->  
 
-## :godmode: My projects
+## :godmode: My repositories
 <div align="center">
 <a href="https://github.com/dmitriy-belkin/sitemap-parser">
 <img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
@@ -194,19 +194,19 @@ Aaaaaand thats it. Vewy nice
 </a>
 <br />
 <br />
-<a href="https://github.com/dmitriy-belkin/csssr">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=csssr&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend">
+<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
+<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend">
+<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+</a>
+<br />
+<br />
 <a href="https://github.com/dmitriy-belkin/platform-gfc-appium">
 <img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
-<br />
-<br />
 <a href="https://github.com/dmitriy-belkin/calculator">
 <img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-<a href="https://github.com/dmitriy-belkin/python_addressbook">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=python_addressbook&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
 </div>
 
