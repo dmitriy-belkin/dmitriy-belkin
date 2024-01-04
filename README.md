@@ -26,7 +26,7 @@ This part was an absolute nightmare to figure out. Turns out that Githubs extend
 &nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
 &nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br>
 - 💬 Ask me about Python, AI, Security, Qubes OS<br>
-- 📙 Check out my [Website](https://itionspace.com)<br>
+- 📙 Check out my [Website](<https://itionspace.com>)<br>
 - 🎉 Fun-Fact: I ❤️ IT and Sport🥋<br>
 <br><br>
 
