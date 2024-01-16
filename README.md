@@ -26,7 +26,7 @@ This part was an absolute nightmare to figure out. Turns out that Githubs extend
 &nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
 &nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br>
 - 💬 Ask me about Python, AI, Security, Qubes OS<br>
-- 📙 Check out my [Website](https://itionspace.com/)<br>
+- 📙 Check out my [Website](https://itionspace.com/) <br>
 - 🎉 Fun-Fact: I ❤️ IT and Sport🥋<br>
 <br><br>
 
@@ -56,8 +56,8 @@ Lets also add a nice spec list bc why not :)
 <details>
   <summary>Peripherals</summary>
 
-  - Monitor 1: Asus MX279H
   - Monitor 2: HP 27f
+  - Monitor: Xiaomi Redmi G27 (27") 2x
   - Keyboard: Razer Ornata Chroma
   - Mouse: SteelSeries Rival 100
   - Audio Equip:
@@ -82,6 +82,7 @@ Lets also add a nice spec list bc why not :)
     - Boot: 2 TB SSD Samsung 970 EVO Plus M.2 (MZ-V7S2T0BW)
   - OS: Linux Ubuntu Server
   - Router: Wi-Fi роутер ASUS TUF Gaming AX4200
+  - Monitor: Asus MX279H
 </details>
 
 <br/>
