@@ -40,15 +40,14 @@ Lets also add a nice spec list bc why not :)
   <summary>Machine Specs</summary>
 
   - CPU: Intel Core i9-14900K
-  - GPU: Gigabyte Geforce RTX 3060 ti
-  - RAM: Kingston HyperX FURY Black RGB 64 ГБ (4x16)
+  - GPU: Asus Rog Geforce RTX 4070 ti
+  - RAM: G.Skill Trident Z5 RGB 96Gb 4x48Gb
   - Case: Thermaltake View 31
   - Cooler: Asus ROG Ryujin III ARGB
-  - Motherboard: Asus ROG Strix Z-790E Gaming WiFi II
+  - Motherboard: Asus ROG Strix Z790-E Gaming WiFi II
   - Drives:
-    - Boot: 2 TB SSD Samsung 970 EVO Plus M.2 (MZ-V7S2T0BW)
-    - Secondary: 1024 GB SSD M.2 Samsung 970 EVO Plus [MZ-V7S1T0BW]
-    - Storage: 2 TB SSD Samsung 970 EVO Plus M.2
+    - Boot: 4 TB SSD Samsung 990 Pro M.2
+    - Secondary: 2 TB SSD M.2 Samsung 990 Pro
   - OS: Windows 11
 
 </details>
