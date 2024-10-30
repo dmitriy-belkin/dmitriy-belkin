@@ -3,10 +3,8 @@ Nice to see you in my readme source. Enjoy my fun ^_^
 -->
 ## ✌️ Hi there!
 
-<p> > My name is Dmitriy and I have been working in IT industry since 2009 year.</p>
-<p> > I have knowledges and experience in a wild range of things.</p>
-<p> > For instance, QA, Product Owner, Help Desk and Development. </p>
-<p> > I am especially interested in QA & Development and I want to improve my skills in this topic.</p>
+<p> 🌍 > <b>Work Experience</b>: In IT since 2009. Worked in QA and Development.</p>
+<p> 🤖 > <b>Now I</b>: Head of QA</p>
 
 ## ⚡️ A Few Quick Facts
 
@@ -18,22 +16,22 @@ This part was an absolute nightmare to figure out. Turns out that Githubs extend
 <img align="left" src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" height="220vh">
 <img align="left" height="260vh" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
 </div>
-- 🧑 I'm a 3️⃣2️⃣ year old male ♂️<br>
-- 🔭 I’m currently working on Automation test (API, Mobile, Web, Stress...<br>
-- 🌱 I’m currently learning `Python`, `Golang`, `Java`<br>
+- 🧑 I'm a 3️⃣3️⃣ year (not) old male ♂️<br>
+- 🔭 **Current Projects**: Automation test (API, Mobile, Web)<br>
+- 🌱 **Learning**: Python, Golang, Java<br>
 - <img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="16px">  I enjoy working on:<br>
 &nbsp; ∘ &nbsp; 📊 Pentesting related Projects<br>
 &nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
 &nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br>
-- 💬 Ask me about Python, AI, Security, Qubes OS<br>
+- 💬 Ask me about QA, Backend and Management<br>
 - 📙 Check out my [Website](https://itionspace.com/) <br>
-- 🎉 Fun-Fact: I ❤️ IT and Sport🥋<br>
+- 🎉 Fact: I ❤️ IT and Sport🥋<br>
 <br><br>
 
 <!--
 Lets also add a nice spec list bc why not :)
 -->
-## 🖥️ My beautiful Workstation
+## 🖥️ My Workstation
 
 <img align="right" height="300vh" src=".github/images/work_place.jpg">
 <details open>
@@ -136,10 +134,12 @@ Lets also add a nice spec list bc why not :)
 List hell. Be my guest, I will explain absolutely nothing
 -->  
 
-| Frontend |<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular" height="50" /><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />| Websites / Finding vulnerabilities | 
-| :---: |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| :---: |
-| Backend | <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /> <img style="margin: 10px" src="https://user-images.githubusercontent.com/15386828/118396465-5129c000-b658-11eb-8fa1-48f185431c82.png" alt="MSSQL" height="50" /> | Working on websites, DIY Projects
-| DevOps | <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /> <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cb/Raspberry_Pi_Logo.svg/570px-Raspberry_Pi_Logo.svg.png" alt="Raspberry Pi" height="50" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /> | Mostly personal interest |
+| Category   | Technologies                                                                                                                                                                                                                   | Description                           |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| **Frontend**  | <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" style="margin: 5px;" /> | Websites / Finding vulnerabilities    |
+| **Backend**   | <img src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" style="margin: 5px;" /> <img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" alt="PostgreSQL" height="50" style="margin: 5px;" /> | Working on websites, DIY Projects      |
+| **DevOps**    | <img src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" style="margin: 5px;" /> <img src="https://github.com/kubernetes/kubernetes/blob/master/logo/logo.svg" alt="Kubernetes" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" style="margin: 5px;" /> | Mostly personal interest                |
+| **QA**        | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" alt="Selenium" height="50" style="margin: 5px;" /> <img src="https://junit.org/junit4/images/junit5-banner.png" alt="JUnit" height="50" style="margin: 5px;" /> <img src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1635105764/team/4c318dd1a76dc2ab12c3b02bbabb898573b80e4584c2437fbd29510a02101a7a?fp=1635105763797" alt="Postman" height="50" style="margin: 5px;" /> | Testing frameworks and tools            |
 
 <br><br>
 
@@ -213,7 +213,6 @@ Aaaaaand thats it. Vewy nice
 
 ## 📡 Reach Me
 [![Linkedin Badge](https://img.shields.io/badge/-dmitriybelkin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dmitriybelkin/)](https://www.linkedin.com/in/dmitriybelkin/) 
-[![Twitter Badge](https://img.shields.io/badge/-Demetrius.Belkin-1ca0f1?style=flat-square&logo=facebook&logoColor=white&link=https://facebook.com/Demetrius.Belkin)](https://facebook.com/Demetrius.Belkin)
 [![StackOverflow Badge](https://img.shields.io/badge/-dmitriybelkin-2d2d2d?style=flat-square&logo=StackOverflow&logoColor=orange&link=https://stackoverflow.com/users/10249673/dmitriy-belkin)](https://stackoverflow.com/users/10249673/dmitriy-belkin)
 
 
