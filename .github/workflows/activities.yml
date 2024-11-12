@@ -1,4 +1,4 @@
-name: Activity Gist
+name: Update Gist with Activity
 
 on:
   schedule:
@@ -6,22 +6,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-gist:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    
-    - name: Log Environment Variables
-      run: |
-        echo "GH_USERNAME=${{ secrets.GH_USERNAME }}"
-        echo "GIST_ID=${{ secrets.GIST_ID }}"
-    
-    - name: Run Activity Box
-      uses: JasonEtco/activity-box@master
-      env:
-          GH_PAT: ${{ secrets.GH_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch recent activity
+        id: get_activity
+        run: |
+          RECENT_ACTIVITY=$(curl -s "https://api.github.com/users/dmitriy-belkin/events/public" | jq '.[0] | {created_at, type}')
+          echo "activity=$RECENT_ACTIVITY" >> $GITHUB_ENV
+
+      - name: Update Gist
+        uses: peterevans/create-or-update-gist@v2
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: dmitriy-belkin
-          GIST_ID: e010e854bb5dec610d0ed1eefeaa83ea
+        with:
+          gist_id: e010e854bb5dec610d0ed1eefeaa83ea
+          filename: activity.md
+          content: "${{ env.activity }}"
