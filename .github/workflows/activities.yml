@@ -13,7 +13,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     
-    - uses: JasonEtco/activity-box@master
+    - name: Log Environment Variables
+      run: |
+        echo "GH_USERNAME=${{ secrets.GH_USERNAME }}"
+        echo "GIST_ID=${{ secrets.GIST_ID }}"
+    
+    - name: Run Activity Box
+      uses: JasonEtco/activity-box@master
       env:
           GH_PAT: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
