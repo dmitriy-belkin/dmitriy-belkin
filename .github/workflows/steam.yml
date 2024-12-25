@@ -25,7 +25,7 @@ jobs:
       - name: Update-gist
         run:  go run ./cmd/box/main.go
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIST_ID: 407120587223e2fd0a5baceafa31683f
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
           STEAM_ID: ${{ secrets.STEAM_ID }}
