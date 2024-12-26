@@ -17,8 +17,8 @@ This part was an absolute nightmare to figure out. Turns out that Githubs extend
 <img align="left" height="260vh" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
 </div>
 - 🧑 I'm a 3️⃣3️⃣ year (not) old male ♂️<br>
-- 🔭 **Current Projects**: Automation test (API, Mobile, Web)<br>
-- 🌱 **Learning**: Python, Golang, Java<br>
+- 🔭 Current Projects: Automation test (API, Mobile, Web)<br>
+- 🌱 Learning: Python, Golang, Java<br>
 - <img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="16px">  I enjoy working on:<br>
 &nbsp; ∘ &nbsp; 📊 Pentesting related Projects<br>
 &nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
