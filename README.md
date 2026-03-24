@@ -24,7 +24,6 @@ This part was an absolute nightmare to figure out. Turns out that Githubs extend
 &nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
 &nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br>
 - 💬 Ask me about QA, Backend and Management<br>
-- 📙 Check out my [Website](https://itionspace.com/) <br>
 - 🎉 Fact: I ❤️ IT and Sport🥋<br>
 <br><br>
 
