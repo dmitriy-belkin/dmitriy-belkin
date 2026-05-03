@@ -24,7 +24,6 @@ jobs:
 
           # --- Global look & feel (aligned with README “radical” purple) ---
           config_timezone: Europe/Moscow
-          config_presets: "@github-dark"
           config_display: large
           config_animations: yes
           config_twemoji: yes
