@@ -6,6 +6,26 @@ I just wanted a nicer looking profile, so after having edited my README to perfe
 
 None of these have been created by me! I just changed the workflows to clone their repo, instead of me having to fork it and checking out my fork. This means that my repository tab looks less ugly, while still keeping the same functionality.
 
+## Metrics infographic
+
+[`metrics.yml`](./metrics.yml) runs [lowlighter/metrics](https://github.com/lowlighter/metrics) and commits **`github-metrics.svg`** to the root of this repo.
+
+**Token:** [`metrics.yml`](./metrics.yml) uses **`GH_TOKEN`** — the same repository secret as Productive Box / Lang Box / Steam (classic PAT with **`gist`** + **`repo`** as needed). You do **not** need a separate `METRICS_TOKEN` unless you want metrics on a different PAT. Docs: [metrics — GitHub Action](https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md).
+
+**Tuning:** edit [`metrics.yml`](./metrics.yml) — options are in `with:`; see [core](https://github.com/lowlighter/metrics/blob/master/source/plugins/core/README.md) and [`source/plugins/`](https://github.com/lowlighter/metrics/tree/master/source/plugins).
+
+Do **not** add a `push: main` trigger to this workflow unless you exclude `github-metrics.svg` — otherwise each commit of the SVG would re-trigger the job.
+
+## Contribution snake
+
+[`snake.yml`](./snake.yml) uses [Platane/snk](https://github.com/Platane/snk) (`svg-only@v3`) and publishes SVGs to branch **`output`**. The profile README loads them from `raw.githubusercontent.com`. After the first push, open **Actions → Generate contribution snake → Run workflow** if the animation 404s until the cron runs.
+
+## Troubleshooting pinned gists
+
+- **`GH_TOKEN` / `GH_PAT`:** Workflows that update gists need a personal access token with the **`gist`** scope stored as a repository secret (`GH_TOKEN` or `GH_PAT` per workflow). The default `GITHUB_TOKEN` cannot update gists ([activity-box docs](https://github.com/JasonEtco/activity-box)).
+- **Empty “What did I do lately?” gist:** That gist ID currently has **no files** in the API (`files: {}`). Re-enable [`activities.yml`](./activities.yml), add **`GH_PAT`** with `gist` scope, then run **Activity Box** manually via **Actions → Activity Box → Run workflow**. The job should recreate the summary file.
+- **Steam / langs / time boxes:** If pins stop updating, check failed workflow runs and rotate expired tokens.
+
 ## Credits:
 1. "When do I usually work?"    = [Productive Box](https://github.com/maxam2017/productive-box)
 2. "What did I do recently?"    = [Activity Box](https://github.com/JasonEtco/activity-box)

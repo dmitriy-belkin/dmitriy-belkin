@@ -1,18 +1,21 @@
-# name: Activity Box
+# Restores the “What did I do lately?” pinned gist (must stay non-empty for pins).
+# Requires repo secret GH_PAT with `gist` scope (GITHUB_TOKEN cannot call the Gist API).
+# See: https://github.com/JasonEtco/activity-box
+name: Activity Box
 
-# on:
-#   schedule:
-#     - cron: '*/10 * * * *'
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - uses: actions/checkout@v1
-#       - uses: JasonEtco/activity-box@master
-#         env:
-#           GH_PAT: ${{ secrets.GH_PAT }}
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           GH_USERNAME: dmitriy-belkin
-#           GIST_ID: 152f3f1c3e0adeea56c01e56c3595021
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: JasonEtco/activity-box@master
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: dmitriy-belkin
+          GIST_ID: 152f3f1c3e0adeea56c01e56c3595021

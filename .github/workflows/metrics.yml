@@ -1,0 +1,72 @@
+# https://github.com/lowlighter/metrics — uses repo secret GH_TOKEN (same PAT as gist workflows).
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.GH_TOKEN }}
+          user: dmitriy-belkin
+          template: classic
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # --- Global look & feel (aligned with README “radical” purple) ---
+          config_timezone: Europe/Moscow
+          config_presets: "@github-dark"
+          config_display: large
+          config_animations: yes
+          config_twemoji: yes
+          plugins_errors_fatal: "no"
+
+          # Accent #BC7AF7 (matches typing SVG / radical cards)
+          extras_css: |
+            h1, h2, h3 {
+              color: #BC7AF7 !important;
+            }
+
+          # Section order (classic template handles): profile → calendar → langs → habits → achievements → activity → repos
+          config_order: base.header, isocalendar, languages, habits, achievements, base.activity+community, base.repositories
+
+          # --- Base content ---
+          base: header, activity, community, repositories, metadata
+          repositories_forks: yes
+
+          # --- Languages (GraphQL / linguist; no indepth clone — keeps CI fast) ---
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+          plugin_languages_other: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_colors: rainbow
+
+          # --- Isometric contribution calendar ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # --- Coding habits (recent events) ---
+          plugin_habits: yes
+          plugin_habits_from: 250
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_trim: yes
+          plugin_habits_languages_limit: 6
+
+          # --- GitHub-style achievement highlights ---
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes

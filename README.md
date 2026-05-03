@@ -1,228 +1,192 @@
 <!--
 Nice to see you in my readme source. Enjoy my fun ^_^
+Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil-na-github-2024-02-05 and the awesome-github-profile-readme community.
 -->
-## ✌️ Hi there!
 
-<p> 🌍 > <b>Work Experience</b>: In IT since 2009. Worked in QA and Development.</p>
-<p> 🤖 > <b>Now I</b>: Head of QA</p>
+<div align="center">
 
-## ⚡️ A Few Quick Facts
+[![Years in IT](https://img.shields.io/badge/IT_since-2009-111111?style=for-the-badge&logo=clockify&logoColor=white)](https://github.com/dmitriy-belkin)
+[![Role](https://img.shields.io/badge/Role-Head_of_QA-6f42c1?style=for-the-badge&logo=target&logoColor=white)](https://github.com/dmitriy-belkin)
+[![Stack](https://img.shields.io/badge/Focus-Automation_%E2%80%A2_API_%E2%80%A2_Mobile_%E2%80%A2_Web-0d1117?style=for-the-badge&logo=testing-library&logoColor=white)](https://github.com/dmitriy-belkin)
 
-<!--
-This part was an absolute nightmare to figure out. Turns out that Githubs extended markdown is scuffed as hell. Left-embedded gifs break everything, so what you see below is the only way to fix it. I seem to be the only one to have even gotten that far.
--->  
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=BC7AF7&center=true&vCenter=true&width=900&height=45&lines=Engineering+across+the+stack+%E2%80%94+from+LLMs+to+metal;Backend+%E2%80%A2+Frontend+%E2%80%A2+DevOps+%E2%80%A2+Security+%E2%80%A2+I%2FO+%26+DIY;Shipping+with+C%E2%80%91level+clarity+%E2%80%94+quality%2C+risk%2C+and+velocity" alt="Typing intro" />
 
-<div>
-<img align="left" src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" height="220vh">
-<img align="left" height="260vh" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
+<br/>
+
+<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" alt="Coding animation" height="200" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png" width="12" alt="" />
+<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="160" alt="Avatar badge" />
+
 </div>
-- 🧑 I'm a 34 year (not) old male ♂️<br>
-- 🔭 Current Projects: Automation test (API, Mobile, Web)<br>
-- 🌱 Learning: Python, Golang, Java<br>
-- <img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="16px">  I enjoy working on:<br>
-&nbsp; ∘ &nbsp; 📊 Pentesting related Projects<br>
-&nbsp; ∘ &nbsp; 🖼 Machine learning & Artificial Intelligence<br>
-&nbsp; ∘ &nbsp; 🛠 DIY Raspberry Pi Projects<br>
-- 💬 Ask me about QA, Backend and Management<br>
-- 🎉 Fact: I ❤️ IT and Sport🥋<br>
-<br><br>
 
-<!--
-Lets also add a nice spec list bc why not :)
--->
-## 🖥️ My Workstation
+## Focus
 
-<img align="right" height="300vh" src=".github/images/work_place.jpg">
-<details open>
-  <summary>Machine Specs</summary>
+| Pillar | What I bring |
+|--------|----------------|
+| **LLM & AI** | Prompting, evaluation, automation around models — practical delivery, not hype |
+| **Backend** | APIs, services, data paths; reliability and observability |
+| **Frontend** | Web & desktop surfaces (incl. Electron) with testability in mind |
+| **DevOps** | Linux, containers, CI/CD, shipping safely and often |
+| **Security / hacker mindset** | Pentesting-oriented tooling, threat-aware QA, breaking things to fix them |
+| **I/O & DIY** | Firmware-adjacent tinkering, Raspberry Pi, physical stacks |
+| **C-level / leadership** | Roadmaps, risk, org clarity — Head of QA lens on outcomes |
 
-  - CPU: Intel Core i9-14900K
-  - GPU: Asus Rog Geforce RTX 4070 ti
-  - RAM: G.Skill Trident Z5 RGB 96Gb 4x48Gb
-  - Case: Thermaltake View 31
-  - Cooler: Asus ROG Ryujin III ARGB
-  - Motherboard: Asus ROG Strix Z790-E Gaming WiFi II
-  - Drives:
-    - Boot: 4 TB SSD Samsung 990 Pro M.2
-    - Secondary: 2 TB SSD M.2 Samsung 990 Pro
-  - OS: Windows 11
+## A few facts
 
-</details>
+- 🧑 34 · building & breaking software since **2009** (QA → dev leadership)
+- 🔭 **Now:** Head of QA — API, mobile, web automation at scale
+- 🌱 **Sharpening:** Python, Go, Java
+- 💬 **Happy to discuss:** QA strategy, backend, security testing, org design
+- 🥋 Off-keyboard: sport and side projects that involve solder or shells
+
+## Hardware (compact)
+
+<img align="right" width="320" src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/images/work_place.jpg" alt="Workstation photo" />
+
+| | Workstation | Server | MacBook Pro 16″ |
+|---|-------------|--------|-----------------|
+| **CPU** | Intel i9-14900K | 2× Xeon E5-2690 v4 (LGA 2011-3) | Apple M1 Pro |
+| **GPU** | ASUS ROG RTX 4070 Ti | ZOTAC RTX 3050 8 GB | integrated |
+| **RAM** | 96 GB — G.Skill Trident Z5 RGB | DDR4 128 GB | 16 GB |
+| **Storage** | 4 TB + 2 TB Samsung 990 Pro M.2 | 2 TB Samsung 970 EVO Plus M.2 | 1 TB |
+| **OS** | Windows 11 | Ubuntu Server | macOS Sonoma |
 
 <details>
-  <summary>Peripherals</summary>
+<summary><b>More gear (monitors, audio, farm, homelab extras)</b></summary>
 
-  - Monitor 2: HP 27f
-  - Monitor: Xiaomi Redmi G27 (27") 2x
-  - Keyboard: Razer Ornata Chroma
-  - Mouse: SteelSeries Rival 100
-  - Audio Equip:
-    - Speakers: M-Audio BX5
-    - Audio Interface: M-Audio M-Track II Plus
-    - Microphone: Audio-Technica 2035
-    - Headphones: M-Audio ATH-M50x
+**Workstation extras:** Thermaltake View 31 · ROG Ryujin III · ROG Strix Z790-E WiFi II · peripherals (Xiaomi / HP panels, Razer Ornata, SteelSeries Rival 100, M-Audio monitors & interface, AT2035, ATH-M50x).
 
-  </details>
+**Server / rack context:** ExeGate 4U · MACHINIST X99 · ASUS TUF AX4200 · ASUS MX279H.
 
-<br/>
+**Apple / mobile:** iPhone 14 · iPhone 14 Pro Max · iPad Air (5th) ×2 · Apple Watch 7.
 
-<details open>
-  <summary>Server</summary>
-
-  - CPU 2x: LGA 2011-3 Xeon E5 2690 V4
-  - GPU: ZOTAC GeForce RTX 3050 Twin Edge OC 8 GB
-  - RAM: DDR4 128 GB
-  - Case: ExeGate Pro 4U480-15/4U4132
-  - Motherboard: MACHINIST X99
-  - Drives:
-    - Boot: 2 TB SSD Samsung 970 EVO Plus M.2 (MZ-V7S2T0BW)
-  - OS: Linux Ubuntu Server
-  - Router: Wi-Fi роутер ASUS TUF Gaming AX4200
-  - Monitor: Asus MX279H
-</details>
-
-<br/>
-
-<details open>
-  <summary>MacBook M1 Pro 16"</summary>
-
-  - CPU: MacBook M1 Pro
-  - RAM: 16 GB
-  - HDD: 1 TB
-  - OS: MacOS Sonoma
+**Android / other:** Xiaomi Mi 10T Pro · Mi 12T · Mi 9T · Flipper Zero ×2 · Raspberry Pi · Mi TV Q2 65 · PS4+VR · PS5+VR2.
 
 </details>
 
-<br/>
-
-<details open>
-  <summary>Farm</summary>
-
-  - Apple iPhone 14
-    - Apple iPhone 14 pro MAX
-    - Apple iPad Air (5th generation)
-    - Apple iPad Air (5th generation)
-    - Xiaomi mi 10T Pro
-    - Xiaomi mi 12T
-    - Xiaomi mi 9T
-
-</details>
-
-<br/>
-
-<details open>
-  <summary>Other devices</summary>
-
-  - TV's:
-    - Xiaomi LED Xiaomi Mi TV Q2 65
-    - LED Daewoo 43DM54FA
-  - SmartWatch:
-    - Apple iWatch 7
-  - Sony PlayStation 4 + VR
-  - Sony PlayStation 5 + VR2
-  - FlipperZero 2x
-  - Raspberry Pi
-
-</details>
-
-<br><br>
-
-## ⚙️ Some Tools and Tech I use
-
-<!--
-List hell. Be my guest, I will explain absolutely nothing
--->  
-
-| Category   | Technologies                                                                                                                                                                                                                   | Description                           |
-|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| **Frontend**  | <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" style="margin: 5px;" /> | Websites / Finding vulnerabilities    |
-| **Backend**   | <img src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" style="margin: 5px;" /> <img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" alt="PostgreSQL" height="50" style="margin: 5px;" /> | Working on websites, DIY Projects      |
-| **DevOps**    | <img src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" style="margin: 5px;" /> <img src="https://github.com/kubernetes/kubernetes/blob/master/logo/logo.svg" alt="Kubernetes" height="50" style="margin: 5px;" /> <img src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" style="margin: 5px;" /> | Mostly personal interest                |
-| **QA**        | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" alt="Selenium" height="50" style="margin: 5px;" /> <img src="https://junit.org/junit4/images/junit5-banner.png" alt="JUnit" height="50" style="margin: 5px;" /> <img src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1635105764/team/4c318dd1a76dc2ab12c3b02bbabb898573b80e4584c2437fbd29510a02101a7a?fp=1635105763797" alt="Postman" height="50" style="margin: 5px;" /> | Testing frameworks and tools            |
-
-<br><br>
-
-<br><br>
-
-## ❤️ Support me
-
-<!--
-Please support me >.<
--->  
-
-<p>Since I work full-time on open-source projects spread across my organizations, my only source of income is donations from people like you that use & appreciate my stuff. So, if you can spare a dollar or two, I would really appreciate that. All the money goes towards paying rent, essentials like food, drinks etc, and most importantly it will be used to fuel my cookie addiction🍪<br></p>
-
-- **[Paypal](<https://paypal.me/dmitriybelkin>)\*\* (Fee: 2%\*)**: Account needed, one-time<br>
-- **[ko-fi](<https://ko-fi.com/dmitriybelkin>) (Fee: 2%\*)**: No account needed, one-time<br>
-
-\* Fee is calculated by how much I will lose when cashing out<br>
-\*\* Please make sure to select *Friends and Family*<br><br>
-**Thanks for all your support <3**
-
-<br><br>
-
-## 📊 GitHub Stats
-
-<!--
-Gotta love some stats
--->  
+## Tech stack (visual)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="35%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact" width="25%">
+  <img src="https://skillicons.dev/icons?i=python,go,java,js,ts,html,css,react,electron,docker,kubernetes,linux,bash,git,postgres,redis&perline=8" alt="Skill icons" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="786">
+  <img src="https://img.shields.io/badge/LLM_workflows-prompts_%E2%80%A2_eval_%E2%80%A2_automation-111111?style=flat-square&logo=openai&logoColor=white" alt="LLM" />
+  <img src="https://img.shields.io/badge/QA-Selenium_%E2%80%A2_Appium_%E2%80%A2_API_tests-43b02a?style=flat-square&logo=selenium&logoColor=white" alt="QA" />
+  <img src="https://img.shields.io/badge/Security-offensive_mindset_%E2%80%A2_hardening-7a001f?style=flat-square&logo=hackaday&logoColor=white" alt="Security" />
+  <img src="https://img.shields.io/badge/Leadership-Head_of_QA_%E2%80%A2_strategy-6f42c1?style=flat-square&logo=readme&logoColor=white" alt="Leadership" />
 </p>
 
+<details>
+<summary><b>Classic tool table (same stack, more labels)</b></summary>
 
+| Area | Stack |
+|------|--------|
+| **Frontend** | HTML, CSS, JavaScript, Electron |
+| **Backend** | Python, Java, PHP, PostgreSQL |
+| **DevOps** | Linux, Git, Bash, Docker, Kubernetes |
+| **QA** | Selenium, JUnit, Postman |
 
-<!--
-Aaaaaand thats it. Vewy nice
--->  
+</details>
 
-## :godmode: My repositories
+## Live gist pins
+
+Automated pins (workflows in this repo). If **“What did I do lately?”** is empty, enable the **Activity Box** workflow and set secret **`GH_PAT`** (scope: `gist`).
+
+| Pin | Gist | Workflow |
+|-----|------|----------|
+| Recent GitHub activity | [What did I do lately? 🔥](https://gist.github.com/dmitriy-belkin/152f3f1c3e0adeea56c01e56c3595021) | [`activities.yml`](./.github/workflows/activities.yml) |
+| Coding rhythm | [When do I usually work?](https://gist.github.com/dmitriy-belkin/200b8f1d25f5bc5c49126e368ea2c9be) | [`time.yml`](./.github/workflows/time.yml) |
+| Language mix | [What langs do I use a lot?](https://gist.github.com/dmitriy-belkin/358ec3216e1e08a466ed55063a3e7467) | [`langs.yml`](./.github/workflows/langs.yml) |
+| Steam | [What games do I play?](https://gist.github.com/dmitriy-belkin/407120587223e2fd0a5baceafa31683f) | [`steam.yml`](./.github/workflows/steam.yml) |
+
+**More creative gist-style ideas (community):** [awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) · [metrics](https://github.com/lowlighter/metrics) · [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) · [README typing SVG](https://github.com/DenverCoder1/readme-typing-svg) · [skill-icons](https://github.com/tandpfun/skill-icons) · [markdown-badges](https://github.com/Ileriayo/markdown-badges) · [shields.io](https://shields.io)
+
+## Fun widgets
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random quote" />
+</p>
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=radical&qColor=%23bc7af7&bgColor=%230d1117" alt="Dev joke" />
+</p>
+
+## Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake.svg" alt="GitHub contribution grid snake animation" />
+  </picture>
+</p>
+
+<p align="center"><sub>Generated daily by <a href="./.github/workflows/snake.yml"><code>snake.yml</code></a> → branch <code>output</code>. Run the workflow once if images are missing.</sub></p>
+
+## GitHub stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true" width="49%" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="49%" alt="Streak stats" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact" width="49%" alt="Top languages" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" alt="Trophies" />
+</p>
+
+## Metrics infographic
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/github-metrics.svg" alt="GitHub metrics infographic" width="100%" />
+</p>
+
+<p align="center"><sub>Updated daily by <a href="./.github/workflows/metrics.yml"><code>metrics.yml</code></a> (options in YAML only). Uses repo secret <code>GH_TOKEN</code> (same as gist workflows). Run <b>Actions → Metrics</b> once if the image 404s.</sub></p>
+
+## Pinned repositories
+
 <div align="center">
 <a href="https://github.com/dmitriy-belkin/sitemap-parser">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<img align="top" alt="sitemap-parser" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
 <a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<img align="top" alt="platforma-gfc-gui-web-test" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
-<br />
-<br />
+<br /><br />
 <a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<img align="top" alt="Belkin-LMS-Backend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
 <a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<img align="top" alt="Belkin-LMS-Frontend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
-<br />
-<br />
+<br /><br />
 <a href="https://github.com/dmitriy-belkin/platform-gfc-appium">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<img align="top" alt="platform-gfc-appium" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
 <a href="https://github.com/dmitriy-belkin/calculator">
-<img align="top" alt="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
+<img align="top" alt="calculator" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
 </a>
 </div>
 
+## Reach me
 
-## 📡 Reach Me
-[![Linkedin Badge](https://img.shields.io/badge/-dmitriybelkin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dmitriybelkin/)](https://www.linkedin.com/in/dmitriybelkin/) 
-[![StackOverflow Badge](https://img.shields.io/badge/-dmitriybelkin-2d2d2d?style=flat-square&logo=StackOverflow&logoColor=orange&link=https://stackoverflow.com/users/10249673/dmitriy-belkin)](https://stackoverflow.com/users/10249673/dmitriy-belkin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dmitriybelkin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dmitriybelkin/)
+[![Stack Overflow](https://img.shields.io/badge/StackOverflow-dmitriybelkin-F58025?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/10249673/dmitriy-belkin)
 
+## Support
 
-<br />
-<br />
-<br />
-<br />
+If you use my open-source work and want to say thanks:
 
+- [PayPal](https://paypal.me/dmitriybelkin) (Friends & family saves fees)
+- [Ko-fi](https://ko-fi.com/dmitriybelkin)
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=dmitriy-belkin"/> 
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dmitriy-belkin&style=flat-square&color=6f42c1&label=Profile+views" alt="Profile views" />
+</p>
 
 <div align="center">
-  <p>"What we do for ourselves dies with us. What we do for others and the world remains and is immortal.” ― Albert Pine</p>
+  <blockquote><i>“What we do for ourselves dies with us. What we do for others and the world remains and is immortal.” — Albert Pike</i></blockquote>
 </div>
