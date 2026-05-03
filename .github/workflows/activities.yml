@@ -1,6 +1,5 @@
-# Restores the “What did I do lately?” pinned gist (must stay non-empty for pins).
-# Requires repo secret GH_PAT with `gist` scope (GITHUB_TOKEN cannot call the Gist API).
-# See: https://github.com/JasonEtco/activity-box
+# “What did I do lately?” gist — JasonEtco/activity-box only allows `schedule`, so manual runs failed.
+# This job uses the public events API + gist update (same idea, supports workflow_dispatch).
 name: Activity Box
 
 on:
@@ -9,13 +8,59 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-gist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: JasonEtco/activity-box@master
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: dmitriy-belkin
-          GIST_ID: 152f3f1c3e0adeea56c01e56c3595021
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GH_PAT }}
+          script: |
+            const core = require("@actions/core");
+            const gistId = "152f3f1c3e0adeea56c01e56c3595021";
+            const username = "dmitriy-belkin";
+            const maxLines = 5;
+            const maxLen = 120;
+
+            const cap = (s) => s.slice(0, 1).toUpperCase() + s.slice(1);
+            const trunc = (s) => (s.length <= maxLen ? s : s.slice(0, maxLen - 3) + "...");
+
+            const serializers = {
+              IssueCommentEvent: (item) =>
+                `🗣 Commented on #${item.payload.issue.number} in ${item.repo.name}`,
+              IssuesEvent: (item) =>
+                `❗️ ${cap(item.payload.action)} issue #${item.payload.issue.number} in ${item.repo.name}`,
+              PullRequestEvent: (item) => {
+                const pr = item.payload.pull_request;
+                const emoji = item.payload.action === "opened" ? "💪" : "❌";
+                const line = pr.merged
+                  ? "🎉 Merged"
+                  : `${emoji} ${cap(item.payload.action)}`;
+                return `${line} PR #${item.payload.pull_request.number} in ${item.repo.name}`;
+              },
+            };
+
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username,
+              per_page: 100,
+            });
+
+            const lines = events
+              .filter((e) => serializers[e.type])
+              .slice(0, maxLines)
+              .map((e) => trunc(serializers[e.type](e)));
+
+            const body =
+              lines.length > 0
+                ? lines.join("\n")
+                : "_No matching public events in the last fetch — commits-only activity does not appear here._";
+
+            await github.rest.gists.update({
+              gist_id: gistId,
+              files: {
+                "What did I do lately?.md": {
+                  content: "### What did I do lately? 🔥\n\n" + body + "\n",
+                },
+              },
+            });
+
+            core.info("Gist updated successfully.");
