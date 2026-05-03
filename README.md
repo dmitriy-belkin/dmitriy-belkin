@@ -2,7 +2,7 @@
 Nice to see you in my readme source. Enjoy my fun ^_^
 Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil-na-github-2024-02-05 and the awesome-github-profile-readme community.
 
-MAINTAINER — pinned repo cards: edit the “Pinned repositories” <img> URLs + matching curl lines in .github/workflows/readme-cards.yml, then run Actions → “Sync readme cards” (or wait for the schedule).
+MAINTAINER — pinned repo cards: edit the “Pinned repositories” <img> URLs + matching curl lines in .github/workflows/readme-cards.yml, then run Actions → “Sync readme cards” (or wait for the schedule). The table below is a 3×2 grid; GitHub’s built-in pin row (profile settings) stays responsive (often 2 cols) — only this README block can be forced to three columns.
 MAINTAINER — stats/streak/langs/trophy SVGs: committed under .github/readme-cards/; same workflow mirrors working vercel mirrors if vercel.app 503s.
 MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowlighter/metrics plugins; community index https://github.com/abhisheknaiidu/awesome-github-profile-readme
 -->
@@ -142,16 +142,23 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 
 ## Pinned repositories
 
-<p align="center">
-<a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-sitemap-parser.svg" width="275" height="86" alt="sitemap-parser" /></a>
-<a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platforma-gfc-gui-web-test.svg" width="275" height="86" alt="platforma-gfc-gui-web-test" /></a>
-<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Backend.svg" width="275" height="86" alt="Belkin-LMS-Backend" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Frontend.svg" width="275" height="86" alt="Belkin-LMS-Frontend" /></a>
-<a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platform-gfc-appium.svg" width="275" height="86" alt="platform-gfc-appium" /></a>
-<a href="https://github.com/dmitriy-belkin/calculator"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-calculator.svg" width="275" height="86" alt="calculator" /></a>
-</p>
+<!-- 3×2 grid: table keeps three cards per row on the profile README; GitHub’s own pin strip above the readme stays 1–2 columns (can’t be set to 3). -->
+<div align="center">
+<table border="0" cellspacing="8" cellpadding="0" width="100%" style="max-width: 900px; border: none; border-collapse: collapse;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-sitemap-parser.svg" width="275" height="86" alt="sitemap-parser" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platforma-gfc-gui-web-test.svg" width="275" height="86" alt="platforma-gfc-gui-web-test" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Backend.svg" width="275" height="86" alt="Belkin-LMS-Backend" /></a></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Frontend.svg" width="275" height="86" alt="Belkin-LMS-Frontend" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platform-gfc-appium.svg" width="275" height="86" alt="platform-gfc-appium" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/calculator"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-calculator.svg" width="275" height="86" alt="calculator" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ## Reach me
 
