@@ -15,7 +15,6 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            const core = require("@actions/core");
             const gistId = "152f3f1c3e0adeea56c01e56c3595021";
             const username = "dmitriy-belkin";
             const maxLines = 5;
@@ -63,4 +62,4 @@ jobs:
               },
             });
 
-            core.info("Gist updated successfully.");
+            console.log("Gist updated successfully.");
