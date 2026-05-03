@@ -27,7 +27,7 @@ Do **not** add a `push: main` trigger to this workflow unless you exclude `githu
 ## Troubleshooting pinned gists
 
 - **`GH_TOKEN` / `GH_PAT`:** Gist workflows need a PAT with **`gist`** scope (`GH_TOKEN` is shared across Time / Langs / Steam / Activity). `GITHUB_TOKEN` cannot update gists.
-- **Activity gist empty / “Bad credentials”:** Rotate **`GH_TOKEN`** in repo secrets (classic PAT: enable **gist**). Run **Actions → Activity Box → Run workflow**. [`activities.yml`](./activities.yml) updates the gist via **github-script** (supports manual runs).
+- **Activity gist empty / “Bad credentials”:** Rotate **`GH_TOKEN`** in repo secrets (classic PAT: enable **gist**). Run **Actions → Activity Box → Run workflow**. [`activities.yml`](./activities.yml) lists **public** events (including **pushes**); private-repo-only work won’t appear here.
 - **Steam / langs / time boxes:** If pins stop updating, check failed workflow runs and rotate expired tokens.
 
 ## Credits:

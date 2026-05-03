@@ -1,6 +1,10 @@
 <!--
 Nice to see you in my readme source. Enjoy my fun ^_^
 Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil-na-github-2024-02-05 and the awesome-github-profile-readme community.
+
+MAINTAINER — pinned repo cards: edit the “Pinned repositories” <img> URLs + matching curl lines in .github/workflows/readme-cards.yml, then run Actions → “Sync readme cards” (or wait for the schedule).
+MAINTAINER — stats/streak/langs/trophy SVGs: committed under .github/readme-cards/; same workflow mirrors working vercel mirrors if vercel.app 503s.
+MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowlighter/metrics plugins; community index https://github.com/abhisheknaiidu/awesome-github-profile-readme
 -->
 
 <div align="center">
@@ -13,17 +17,11 @@ Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=BC7AF7&center=true&vCenter=true&width=720&height=50&lines=Engineering+across+the+stack+%E2%80%94+from+LLMs+to+metal;Backend+%E2%80%A2+Frontend+%E2%80%A2+DevOps+%E2%80%A2+Security+%E2%80%A2+I%2FO+%26+DIY;Shipping+with+C%E2%80%91level+clarity+%E2%80%94+quality%2C+risk%2C+and+velocity" alt="Typing intro" />
 
-<table align="center">
-<tr>
-<td align="center" valign="middle">
-<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" alt="Coding animation" height="180" />
-</td>
-<td align="center" valign="middle" width="32">&nbsp;</td>
-<td align="center" valign="middle">
-<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="150" alt="Avatar badge" />
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" alt="Coding animation" height="180" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="150" alt="Avatar badge" />
+</p>
 
 </div>
 
@@ -99,18 +97,17 @@ Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil
 
 </details>
 
-## Live gist pins
+## Live snapshots
 
-Automated pins (workflows in this repo). **Activity Box** uses the same secret **`GH_TOKEN`** as the other gist jobs (needs **`gist`** on the PAT). If a run fails with “Bad credentials”, create a new PAT and update `GH_TOKEN` in repo **Settings → Secrets**.
-
-| Pin | Gist | Workflow |
-|-----|------|----------|
-| Recent GitHub activity | [What did I do lately? 🔥](https://gist.github.com/dmitriy-belkin/152f3f1c3e0adeea56c01e56c3595021) | [`activities.yml`](./.github/workflows/activities.yml) |
-| Coding rhythm | [When do I usually work?](https://gist.github.com/dmitriy-belkin/200b8f1d25f5bc5c49126e368ea2c9be) | [`time.yml`](./.github/workflows/time.yml) |
-| Language mix | [What langs do I use a lot?](https://gist.github.com/dmitriy-belkin/358ec3216e1e08a466ed55063a3e7467) | [`langs.yml`](./.github/workflows/langs.yml) |
-| Steam | [What games do I play?](https://gist.github.com/dmitriy-belkin/407120587223e2fd0a5baceafa31683f) | [`steam.yml`](./.github/workflows/steam.yml) |
-
-**More creative gist-style ideas (community):** [awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) · [metrics](https://github.com/lowlighter/metrics) · [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) · [README typing SVG](https://github.com/DenverCoder1/readme-typing-svg) · [skill-icons](https://github.com/tandpfun/skill-icons) · [markdown-badges](https://github.com/Ileriayo/markdown-badges) · [shields.io](https://shields.io)
+<p align="center">
+  <a href="https://gist.github.com/dmitriy-belkin/152f3f1c3e0adeea56c01e56c3595021">Recent activity</a>
+  &nbsp;·&nbsp;
+  <a href="https://gist.github.com/dmitriy-belkin/200b8f1d25f5bc5c49126e368ea2c9be">Coding rhythm</a>
+  &nbsp;·&nbsp;
+  <a href="https://gist.github.com/dmitriy-belkin/358ec3216e1e08a466ed55063a3e7467">Language mix</a>
+  &nbsp;·&nbsp;
+  <a href="https://gist.github.com/dmitriy-belkin/407120587223e2fd0a5baceafa31683f">Steam</a>
+</p>
 
 ## Fun widgets
 
@@ -127,15 +124,15 @@ Automated pins (workflows in this repo). **Activity Box** uses the same secret *
 <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake animation (dark)" width="900" />
 </p>
 
-<p align="center"><sub>Generated daily by <a href="./.github/workflows/snake.yml"><code>snake.yml</code></a> → branch <code>output</code>. Light variant: <a href="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake.svg"><code>snake.svg</code></a>.</sub></p>
-
 ## GitHub stats
 
-<!-- Served from this repo (see .github/readme-cards/). Direct links to vercel.app often 503 + Camo shows gray js-gh-image-fallback. -->
-<p align="center"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/stats.svg" width="495" height="195" alt="GitHub stats" /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/streak.svg" width="495" height="195" alt="Streak stats" /></p>
+<!-- SVGs live in-repo (.github/readme-cards/) so Camo doesn’t hit paused vercel deployments. Regenerated by readme-cards workflow. -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/stats.svg" width="400" height="158" alt="GitHub stats" />
+  <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/streak.svg" width="400" height="158" alt="Streak stats" />
+</p>
 <p align="center"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/langs.svg" width="495" height="320" alt="Top languages" /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/trophy.svg" width="800" height="210" alt="Trophies" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/trophy.svg" width="720" height="189" alt="Trophies" /></p>
 
 ## Metrics infographic
 
@@ -143,16 +140,18 @@ Automated pins (workflows in this repo). **Activity Box** uses the same secret *
 <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/github-metrics.svg" alt="GitHub metrics infographic" width="920" />
 </p>
 
-<p align="center"><sub>Updated daily by <a href="./.github/workflows/metrics.yml"><code>metrics.yml</code></a> (options in YAML only). Uses repo secret <code>GH_TOKEN</code> (same as gist workflows). Run <b>Actions → Metrics</b> once if the image 404s.</sub></p>
-
 ## Pinned repositories
 
-<p align="center"><a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-sitemap-parser.svg" width="496" height="155" alt="sitemap-parser" /></a></p>
-<p align="center"><a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platforma-gfc-gui-web-test.svg" width="496" height="155" alt="platforma-gfc-gui-web-test" /></a></p>
-<p align="center"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Backend.svg" width="496" height="155" alt="Belkin-LMS-Backend" /></a></p>
-<p align="center"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Frontend.svg" width="496" height="155" alt="Belkin-LMS-Frontend" /></a></p>
-<p align="center"><a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platform-gfc-appium.svg" width="496" height="155" alt="platform-gfc-appium" /></a></p>
-<p align="center"><a href="https://github.com/dmitriy-belkin/calculator"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-calculator.svg" width="496" height="155" alt="calculator" /></a></p>
+<p align="center">
+<a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-sitemap-parser.svg" width="275" height="86" alt="sitemap-parser" /></a>
+<a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platforma-gfc-gui-web-test.svg" width="275" height="86" alt="platforma-gfc-gui-web-test" /></a>
+<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Backend.svg" width="275" height="86" alt="Belkin-LMS-Backend" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Frontend.svg" width="275" height="86" alt="Belkin-LMS-Frontend" /></a>
+<a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platform-gfc-appium.svg" width="275" height="86" alt="platform-gfc-appium" /></a>
+<a href="https://github.com/dmitriy-belkin/calculator"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-calculator.svg" width="275" height="86" alt="calculator" /></a>
+</p>
 
 ## Reach me
 
