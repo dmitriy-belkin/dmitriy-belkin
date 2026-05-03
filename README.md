@@ -131,29 +131,18 @@ Automated pins (workflows in this repo). **Activity Box** uses the same secret *
 
 ## GitHub stats
 
-<!-- Percent widths collapse on profile README; use explicit px + table layout -->
-<table align="center">
-<tbody>
-<tr>
-<td align="center" valign="top">
-<img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true" width="460" alt="GitHub stats" />
-</td>
-<td align="center" valign="top">
-<img src="https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="460" alt="Streak stats" />
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" colspan="2">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact&langs_count=8" width="460" alt="Top languages" />
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" colspan="2">
-<img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="820" alt="Trophies" />
-</td>
-</tr>
-</tbody>
-</table>
+<!-- Profile README sanitizes many table+img combos → empty cells. Stack cards without <table>. -->
+<div align="center">
+<a href="https://github.com/dmitriy-belkin">
+<img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true" width="495" alt="GitHub stats" />
+</a>
+<br /><br />
+<img src="https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="495" alt="Streak stats" />
+<br /><br />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact&langs_count=8" width="495" alt="Top languages" />
+<br /><br />
+<img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="700" alt="Trophies" />
+</div>
 
 ## Metrics infographic
 
@@ -165,22 +154,23 @@ Automated pins (workflows in this repo). **Activity Box** uses the same secret *
 
 ## Pinned repositories
 
-<table align="center">
-<tbody>
-<tr>
-<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/sitemap-parser"><img alt="sitemap-parser" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
-<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img alt="platforma-gfc-gui-web-test" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
-</tr>
-<tr>
-<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img alt="Belkin-LMS-Backend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
-<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img alt="Belkin-LMS-Frontend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
-</tr>
-<tr>
-<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img alt="platform-gfc-appium" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
-<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/calculator"><img alt="calculator" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
-</tr>
-</tbody>
-</table>
+<div align="center">
+<p>
+<a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="sitemap-parser" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="platforma-gfc-gui-web-test" /></a>
+</p>
+<p>
+<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="Belkin-LMS-Backend" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="Belkin-LMS-Frontend" /></a>
+</p>
+<p>
+<a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="platform-gfc-appium" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/dmitriy-belkin/calculator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="calculator" /></a>
+</p>
+</div>
 
 ## Reach me
 
