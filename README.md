@@ -40,6 +40,7 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 ## A few facts
 
 - 🧑 34 · building & breaking software since **2009** (QA → dev leadership)
+- 🔒 **Professional work** mostly lives in **private company repositories** — public repos here are samples, experiments, and tooling, not the whole picture
 - 🔭 **Now:** Head of QA — API, mobile, web automation at scale
 - 🌱 **Sharpening:** Python, Go, Java
 - 💬 **Happy to discuss:** QA strategy, backend, security testing, org design
