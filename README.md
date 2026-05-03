@@ -5,17 +5,25 @@ Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil
 
 <div align="center">
 
-[![Years in IT](https://img.shields.io/badge/IT_since-2009-111111?style=for-the-badge&logo=clockify&logoColor=white)](https://github.com/dmitriy-belkin)
-[![Role](https://img.shields.io/badge/Role-Head_of_QA-6f42c1?style=for-the-badge&logo=target&logoColor=white)](https://github.com/dmitriy-belkin)
-[![Stack](https://img.shields.io/badge/Focus-Automation_%E2%80%A2_API_%E2%80%A2_Mobile_%E2%80%A2_Web-0d1117?style=for-the-badge&logo=testing-library&logoColor=white)](https://github.com/dmitriy-belkin)
+<p>
+<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/IT_since-2009-111111?style=for-the-badge&logo=clockify&logoColor=white" alt="Years in IT" /></a>
+<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Role-Head_of_QA-6f42c1?style=for-the-badge&logo=target&logoColor=white" alt="Role" /></a>
+<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Focus-Automation_%E2%80%A2_API_%E2%80%A2_Mobile_%E2%80%A2_Web-0d1117?style=for-the-badge&logo=testing-library&logoColor=white" alt="Focus" /></a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=BC7AF7&center=true&vCenter=true&width=900&height=45&lines=Engineering+across+the+stack+%E2%80%94+from+LLMs+to+metal;Backend+%E2%80%A2+Frontend+%E2%80%A2+DevOps+%E2%80%A2+Security+%E2%80%A2+I%2FO+%26+DIY;Shipping+with+C%E2%80%91level+clarity+%E2%80%94+quality%2C+risk%2C+and+velocity" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=BC7AF7&center=true&vCenter=true&width=720&height=50&lines=Engineering+across+the+stack+%E2%80%94+from+LLMs+to+metal;Backend+%E2%80%A2+Frontend+%E2%80%A2+DevOps+%E2%80%A2+Security+%E2%80%A2+I%2FO+%26+DIY;Shipping+with+C%E2%80%91level+clarity+%E2%80%94+quality%2C+risk%2C+and+velocity" alt="Typing intro" />
 
-<br/>
-
-<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" alt="Coding animation" height="200" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png" width="12" alt="" />
-<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="160" alt="Avatar badge" />
+<table align="center">
+<tr>
+<td align="center" valign="middle">
+<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/blob/main/.github/images/develop.gif?raw=true" alt="Coding animation" height="180" />
+</td>
+<td align="center" valign="middle" width="32">&nbsp;</td>
+<td align="center" valign="middle">
+<img src="https://github.com/dmitriy-belkin/dmitriy-belkin/assets/33028836/30de9828-3a45-40e9-87bb-a45828dcebec" width="150" alt="Avatar badge" />
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -41,10 +49,12 @@ Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil
 
 ## Hardware (compact)
 
-<img align="right" width="320" src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/images/work_place.jpg" alt="Workstation photo" />
+<p align="center">
+<img width="640" src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/images/work_place.jpg" alt="Workstation photo" />
+</p>
 
-| | Workstation | Server | MacBook Pro 16″ |
-|---|-------------|--------|-----------------|
+|  | Workstation | Server | MacBook Pro 16″ |
+| --- | --- | --- | --- |
 | **CPU** | Intel i9-14900K | 2× Xeon E5-2690 v4 (LGA 2011-3) | Apple M1 Pro |
 | **GPU** | ASUS ROG RTX 4070 Ti | ZOTAC RTX 3050 8 GB | integrated |
 | **RAM** | 96 GB — G.Skill Trident Z5 RGB | DDR4 128 GB | 16 GB |
@@ -114,60 +124,63 @@ Automated pins (workflows in this repo). If **“What did I do lately?”** is e
 ## Contribution snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake.svg" alt="GitHub contribution grid snake animation" />
-  </picture>
+<img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution grid snake animation (dark)" width="900" />
 </p>
 
-<p align="center"><sub>Generated daily by <a href="./.github/workflows/snake.yml"><code>snake.yml</code></a> → branch <code>output</code>. Run the workflow once if images are missing.</sub></p>
+<p align="center"><sub>Generated daily by <a href="./.github/workflows/snake.yml"><code>snake.yml</code></a> → branch <code>output</code>. Light variant: <a href="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/output/github-contribution-grid-snake.svg"><code>snake.svg</code></a>.</sub></p>
 
 ## GitHub stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true" width="49%" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="49%" alt="Streak stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact" width="49%" alt="Top languages" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" alt="Trophies" />
-</p>
+<!-- Percent widths collapse on profile README; use explicit px + table layout -->
+<table align="center">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true" width="460" alt="GitHub stats" />
+</td>
+<td align="center" valign="top">
+<img src="https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="460" alt="Streak stats" />
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" colspan="2">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact&langs_count=8" width="460" alt="Top languages" />
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" colspan="2">
+<img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="820" alt="Trophies" />
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Metrics infographic
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/github-metrics.svg" alt="GitHub metrics infographic" width="100%" />
+<img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/github-metrics.svg" alt="GitHub metrics infographic" width="920" />
 </p>
 
 <p align="center"><sub>Updated daily by <a href="./.github/workflows/metrics.yml"><code>metrics.yml</code></a> (options in YAML only). Uses repo secret <code>GH_TOKEN</code> (same as gist workflows). Run <b>Actions → Metrics</b> once if the image 404s.</sub></p>
 
 ## Pinned repositories
 
-<div align="center">
-<a href="https://github.com/dmitriy-belkin/sitemap-parser">
-<img align="top" alt="sitemap-parser" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-<a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test">
-<img align="top" alt="platforma-gfc-gui-web-test" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-<br /><br />
-<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend">
-<img align="top" alt="Belkin-LMS-Backend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend">
-<img align="top" alt="Belkin-LMS-Frontend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-<br /><br />
-<a href="https://github.com/dmitriy-belkin/platform-gfc-appium">
-<img align="top" alt="platform-gfc-appium" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-<a href="https://github.com/dmitriy-belkin/calculator">
-<img align="top" alt="calculator" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="32%" />
-</a>
-</div>
+<table align="center">
+<tbody>
+<tr>
+<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/sitemap-parser"><img alt="sitemap-parser" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
+<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img alt="platforma-gfc-gui-web-test" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img alt="Belkin-LMS-Backend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
+<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img alt="Belkin-LMS-Frontend" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img alt="platform-gfc-appium" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
+<td align="center" valign="top"><a href="https://github.com/dmitriy-belkin/calculator"><img alt="calculator" src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="280" /></a></td>
+</tr>
+</tbody>
+</table>
 
 ## Reach me
 
