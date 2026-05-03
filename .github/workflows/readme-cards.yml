@@ -24,9 +24,10 @@ jobs:
           BASE_STATS="https://github-readme-stats-eight-theta.vercel.app"
           # Public deployment: omit count_private (avoids broken/error SVG when Camo fetches anonymously)
 
-          curl -fsSL "${BASE_STATS}/api?username=dmitriy-belkin&theme=radical&hide_border=false&show_icons=true" -o "$D/stats.svg"
-          curl -fsSL "https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" -o "$D/streak.svg"
-          curl -fsSL "${BASE_STATS}/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&layout=compact&langs_count=8" -o "$D/langs.svg"
+          # Same card width (495): stats/streak default; compact langs needs card_width=445 → 495×190 SVG.
+          curl -fsSL "${BASE_STATS}/api?username=dmitriy-belkin&theme=radical&hide_border=true&show_icons=true&card_width=495" -o "$D/stats.svg"
+          curl -fsSL "https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=true" -o "$D/streak.svg"
+          curl -fsSL "${BASE_STATS}/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=true&layout=compact&langs_count=8&card_width=445" -o "$D/langs.svg"
           curl -fsSL "https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" -o "$D/trophy.svg"
 
           curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false" -o "$D/pin-sitemap-parser.svg"
