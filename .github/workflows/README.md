@@ -6,6 +6,10 @@ I just wanted a nicer looking profile, so after having edited my README to perfe
 
 None of these have been created by me! I just changed the workflows to clone their repo, instead of me having to fork it and checking out my fork. This means that my repository tab looks less ugly, while still keeping the same functionality.
 
+## Readme stat / pin cards
+
+[`readme-cards.yml`](./readme-cards.yml) downloads SVGs into [`.github/readme-cards/`](../readme-cards) so the profile README can use `raw.githubusercontent.com/.../readme-cards/*.svg`. The public **`github-readme-stats.vercel.app`** is often **503 (deployment paused)**; the workflow uses mirror **`github-readme-stats-eight-theta.vercel.app`**. Run **Sync readme cards** if you change repos or the profile shows gray placeholders.
+
 ## Metrics infographic
 
 [`metrics.yml`](./metrics.yml) runs [lowlighter/metrics](https://github.com/lowlighter/metrics) and commits **`github-metrics.svg`** to the root of this repo.
