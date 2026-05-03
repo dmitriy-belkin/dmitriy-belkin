@@ -13,7 +13,8 @@ jobs:
     steps:
       - uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GH_PAT }}
+          # Same token as time/langs/steam (gist scope). If this fails, rotate `GH_TOKEN` in repo secrets.
+          github-token: ${{ secrets.GH_TOKEN }}
           script: |
             const gistId = "152f3f1c3e0adeea56c01e56c3595021";
             const username = "dmitriy-belkin";

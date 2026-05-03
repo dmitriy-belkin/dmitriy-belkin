@@ -22,8 +22,8 @@ Do **not** add a `push: main` trigger to this workflow unless you exclude `githu
 
 ## Troubleshooting pinned gists
 
-- **`GH_TOKEN` / `GH_PAT`:** Workflows that update gists need a personal access token with the **`gist`** scope stored as a repository secret (`GH_TOKEN` or `GH_PAT` per workflow). The default `GITHUB_TOKEN` cannot update gists ([activity-box docs](https://github.com/JasonEtco/activity-box)).
-- **Empty “What did I do lately?” gist:** That gist ID currently has **no files** in the API (`files: {}`). Re-enable [`activities.yml`](./activities.yml), add **`GH_PAT`** with `gist` scope, then run **Activity Box** manually via **Actions → Activity Box → Run workflow**. The job should recreate the summary file.
+- **`GH_TOKEN` / `GH_PAT`:** Gist workflows need a PAT with **`gist`** scope (`GH_TOKEN` is shared across Time / Langs / Steam / Activity). `GITHUB_TOKEN` cannot update gists.
+- **Activity gist empty / “Bad credentials”:** Rotate **`GH_TOKEN`** in repo secrets (classic PAT: enable **gist**). Run **Actions → Activity Box → Run workflow**. [`activities.yml`](./activities.yml) updates the gist via **github-script** (supports manual runs).
 - **Steam / langs / time boxes:** If pins stop updating, check failed workflow runs and rotate expired tokens.
 
 ## Credits:

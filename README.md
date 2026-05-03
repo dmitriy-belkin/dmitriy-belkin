@@ -101,7 +101,7 @@ Inspired by profile ideas from https://proglib.io/p/kak-sdelat-kreativnyy-profil
 
 ## Live gist pins
 
-Automated pins (workflows in this repo). If **“What did I do lately?”** is empty, enable the **Activity Box** workflow and set secret **`GH_PAT`** (scope: `gist`).
+Automated pins (workflows in this repo). **Activity Box** uses the same secret **`GH_TOKEN`** as the other gist jobs (needs **`gist`** on the PAT). If a run fails with “Bad credentials”, create a new PAT and update `GH_TOKEN` in repo **Settings → Secrets**.
 
 | Pin | Gist | Workflow |
 |-----|------|----------|
