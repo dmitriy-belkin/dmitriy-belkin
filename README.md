@@ -75,21 +75,30 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 
 ## Tech stack (visual)
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,java,js,ts,html,css,react,electron,docker,kubernetes,linux,bash,git,postgres,redis,playwright,terraform,prometheus,grafana,nginx&perline=10" alt="Languages, runtime, cloud-native stack" />
+<!-- Shorter skillicons URLs load reliably through Camo; dark theme matches profile. -->
+<div align="center">
+<p>
+  <img src="https://skillicons.dev/icons?i=python,go,java,js,ts,html,css,react&perline=8&theme=dark" alt="Languages" /><br />
+  <img src="https://skillicons.dev/icons?i=electron,docker,kubernetes,linux,bash,git,postgres,redis&perline=8&theme=dark" alt="Runtimes, platform, data" /><br />
+  <img src="https://skillicons.dev/icons?i=playwright,terraform,nginx,prometheus,grafana&perline=5&theme=dark" alt="Automation, IaC, observability" />
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_%26_LLM-RAG_%E2%80%A2_agents_%E2%80%A2_eval_%E2%80%A2_LLMOps_%E2%80%A2_internal_platforms-111111?style=flat-square&logo=openai&logoColor=white" alt="AI and LLM" />
-  <img src="https://img.shields.io/badge/Test_platforms-Playwright_%E2%80%A2_Selenium_%E2%80%A2_Appium_%E2%80%A2_API_%E2%80%A2_contract-43b02a?style=flat-square&logo=playwright&logoColor=white" alt="Test automation" />
-  <img src="https://img.shields.io/badge/Security-threat_modelling_%E2%80%A2_AppSec_%E2%80%A2_offensive_tooling_%E2%80%A2_hardening-7a001f?style=flat-square&logo=hackaday&logoColor=white" alt="Security" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/DevOps_%26_platform-CI_CD_%E2%80%A2_IaC_%E2%80%A2_Kubernetes_%E2%80%A2_observability_%E2%80%A2_release_engineering-2496ED?style=flat-square&logo=docker&logoColor=white" alt="DevOps" />
-  <img src="https://img.shields.io/badge/Data_%26_analytics-ClickHouse_%E2%80%A2_BI_%E2%80%A2_analytics_pipelines_%E2%80%A2_Hadoop_ecosystem-FF6600?style=flat-square&logo=apachespark&logoColor=white" alt="Data and analytics" />
-  <img src="https://img.shields.io/badge/Leadership-engineering_strategy_%E2%80%A2_delivery_%E2%80%A2_KPIs_%E2%80%A2_org_design_%E2%80%A2_stakeholders-6f42c1?style=flat-square&logo=readme&logoColor=white" alt="Leadership" />
-</p>
+<table border="0" cellspacing="6" cellpadding="0" style="max-width: 720px; border: none; border-collapse: collapse; margin: 0 auto;">
+<tbody>
+<tr>
+<td align="center" style="border: none;"><img src="https://img.shields.io/badge/LLM-RAG%20%C2%B7%20agents%20%C2%B7%20LLMOps-111111?style=flat-square&logo=openai&logoColor=white" alt="LLM" /></td>
+<td align="center" style="border: none;"><img src="https://img.shields.io/badge/Tests-Playwright%20%C2%B7%20Selenium%20%C2%B7%20Appium-43b02a?style=flat-square&logo=playwright&logoColor=white" alt="Tests" /></td>
+</tr>
+<tr>
+<td align="center" style="border: none;"><img src="https://img.shields.io/badge/Security-AppSec%20%C2%B7%20threat%20model%20%C2%B7%20hardening-7a001f?style=flat-square&logo=hackaday&logoColor=white" alt="Security" /></td>
+<td align="center" style="border: none;"><img src="https://img.shields.io/badge/DevOps-CI%2FCD%20%C2%B7%20K8s%20%C2%B7%20IaC%20%C2%B7%20SRE-2496ED?style=flat-square&logo=docker&logoColor=white" alt="DevOps" /></td>
+</tr>
+<tr>
+<td align="center" style="border: none;"><img src="https://img.shields.io/badge/Data-ClickHouse%20%C2%B7%20BI%20%C2%B7%20pipelines%20%C2%B7%20Hadoop%20ecosystem-FF6600?style=flat-square&logo=apachespark&logoColor=white" alt="Data" /></td>
+<td align="center" style="border: none;"><img src="https://img.shields.io/badge/Leadership-KPIs%20%C2%B7%20delivery%20%C2%B7%20org%20design-6f42c1?style=flat-square&logo=readme&logoColor=white" alt="Leadership" /></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 <details>
 <summary><b>Full stack map (engineering & leadership lens)</b></summary>
