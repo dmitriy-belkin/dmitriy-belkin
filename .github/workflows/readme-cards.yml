@@ -1,0 +1,54 @@
+# Fetches SVG cards from public APIs and commits them under .github/readme-cards/
+# so profile README can use raw.githubusercontent.com (Camo often fails on vercel.app for anonymous viewers).
+name: Sync readme cards
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download SVG cards
+        run: |
+          set -euo pipefail
+          D=".github/readme-cards"
+          mkdir -p "$D"
+          # Official github-readme-stats.vercel.app is often 503 DEPLOYMENT_PAUSED — use community mirror.
+          BASE_STATS="https://github-readme-stats-eight-theta.vercel.app"
+          # Public deployment: omit count_private (avoids broken/error SVG when Camo fetches anonymously)
+
+          # Same card width (495): stats/streak default; compact langs needs card_width=445 → 495×190 SVG.
+          curl -fsSL "${BASE_STATS}/api?username=dmitriy-belkin&theme=radical&hide_border=true&show_icons=true&card_width=495" -o "$D/stats.svg"
+          curl -fsSL "https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=true" -o "$D/streak.svg"
+          curl -fsSL "${BASE_STATS}/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=true&layout=compact&langs_count=8&card_width=445" -o "$D/langs.svg"
+          curl -fsSL "https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" -o "$D/trophy.svg"
+
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false" -o "$D/pin-sitemap-parser.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false" -o "$D/pin-platforma-gfc-gui-web-test.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false" -o "$D/pin-Belkin-LMS-Backend.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false" -o "$D/pin-Belkin-LMS-Frontend.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false" -o "$D/pin-platform-gfc-appium.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false" -o "$D/pin-calculator.svg"
+
+          for f in "$D"/*.svg; do
+            grep -q '<svg' "$f" || { echo "Not valid SVG: $f"; head -c 800 "$f"; exit 1; }
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/readme-cards
+          if git diff --staged --quiet; then
+            echo "No SVG changes."
+          else
+            git commit -m "chore: refresh readme-cards SVGs [skip ci]"
+            git push
+          fi
