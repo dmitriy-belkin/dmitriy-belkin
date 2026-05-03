@@ -131,17 +131,17 @@ Automated pins (workflows in this repo). **Activity Box** uses the same secret *
 
 ## GitHub stats
 
-<!-- Profile README sanitizes many table+img combos → empty cells. Stack cards without <table>. -->
+<!-- Markdown ![…](url) renders reliably on profile README; raw <img> inside wrappers often collapses (Camo SVG → ~21px height). -->
 <div align="center">
-<a href="https://github.com/dmitriy-belkin">
-<img src="https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true" width="495" alt="GitHub stats" />
-</a>
-<br /><br />
-<img src="https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false" width="495" alt="Streak stats" />
-<br /><br />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact&langs_count=8" width="495" alt="Top languages" />
-<br /><br />
-<img src="https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="700" alt="Trophies" />
+
+![](https://github-readme-stats.vercel.app/api?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&show_icons=true)
+
+![](https://streak-stats.demolab.com/?user=dmitriy-belkin&theme=radical&hide_border=false)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact&langs_count=8)
+
+![](https://github-profile-trophy.vercel.app/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C)
+
 </div>
 
 ## Metrics infographic
@@ -155,21 +155,16 @@ Automated pins (workflows in this repo). **Activity Box** uses the same secret *
 ## Pinned repositories
 
 <div align="center">
-<p>
-<a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="sitemap-parser" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="platforma-gfc-gui-web-test" /></a>
-</p>
-<p>
-<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="Belkin-LMS-Backend" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="Belkin-LMS-Frontend" /></a>
-</p>
-<p>
-<a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="platform-gfc-appium" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/dmitriy-belkin/calculator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true" width="268" alt="calculator" /></a>
-</p>
+
+[![sitemap-parser](https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false&include_all_commits=false&count_private=true)](https://github.com/dmitriy-belkin/sitemap-parser)
+[![platforma-gfc-gui-web-test](https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false&include_all_commits=false&count_private=true)](https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test)
+
+[![Belkin-LMS-Backend](https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false&include_all_commits=false&count_private=true)](https://github.com/dmitriy-belkin/Belkin-LMS-Backend)
+[![Belkin-LMS-Frontend](https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false&include_all_commits=false&count_private=true)](https://github.com/dmitriy-belkin/Belkin-LMS-Frontend)
+
+[![platform-gfc-appium](https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false&include_all_commits=false&count_private=true)](https://github.com/dmitriy-belkin/platform-gfc-appium)
+[![calculator](https://github-readme-stats.vercel.app/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false&include_all_commits=false&count_private=true)](https://github.com/dmitriy-belkin/calculator)
+
 </div>
 
 ## Reach me
