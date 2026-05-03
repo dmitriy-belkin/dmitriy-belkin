@@ -1,0 +1,76 @@
+# “What did I do lately?” gist — public events API (includes pushes, not only issues/PRs).
+name: Activity Box
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GH_TOKEN }}
+          script: |
+            const gistId = "152f3f1c3e0adeea56c01e56c3595021";
+            const username = "dmitriy-belkin";
+            const maxLines = 7;
+            const maxLen = 130;
+
+            const cap = (s) => s.slice(0, 1).toUpperCase() + s.slice(1);
+            const trunc = (s) => (s.length <= maxLen ? s : s.slice(0, maxLen - 3) + "...");
+
+            const serializers = {
+              PushEvent: (item) => {
+                const branch = String(item.payload.ref || "").replace(/^refs\/heads\//, "") || "branch";
+                const repo = item.repo.name;
+                const n = item.payload.size ?? item.payload.commits?.length ?? 0;
+                return `📌 Pushed ${n} commit(s) to \`${branch}\` in ${repo}`;
+              },
+              IssueCommentEvent: (item) =>
+                `🗣 Commented on #${item.payload.issue?.number ?? "?"} in ${item.repo.name}`,
+              IssuesEvent: (item) =>
+                `❗️ ${cap(item.payload.action)} issue #${item.payload.issue?.number ?? "?"} in ${item.repo.name}`,
+              PullRequestEvent: (item) => {
+                const pr = item.payload.pull_request;
+                if (!pr) return `PR activity in ${item.repo.name}`;
+                const emoji = item.payload.action === "opened" ? "💪" : "❌";
+                const line = pr.merged ? "🎉 Merged" : `${emoji} ${cap(item.payload.action)}`;
+                return `${line} PR #${pr.number} in ${item.repo.name}`;
+              },
+              CreateEvent: (item) => {
+                const repo = item.repo.name;
+                const rt = item.payload.ref_type;
+                const ref = item.payload.ref || "";
+                if (rt === "repository") return `✨ Created repository ${repo}`;
+                return `✨ Created ${rt} ${ref} in ${repo}`;
+              },
+            };
+
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username,
+              per_page: 100,
+            });
+
+            const lines = events
+              .filter((e) => serializers[e.type])
+              .slice(0, maxLines)
+              .map((e) => trunc(serializers[e.type](e)));
+
+            const body =
+              lines.length > 0
+                ? lines.join("\n\n")
+                : "_No public events in this window yet — activity that stays private or off GitHub won’t show here._";
+
+            await github.rest.gists.update({
+              gist_id: gistId,
+              files: {
+                "What did I do lately?.md": {
+                  content: body + "\n",
+                },
+              },
+            });
+
+            console.log("Gist updated successfully.");

@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+  animation: h1animate 2s infinite;
+}
+
+@keyframes h1animate {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
+
+table {
+    border: none;
+}
