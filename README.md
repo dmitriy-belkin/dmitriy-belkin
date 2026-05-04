@@ -33,7 +33,7 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 | **Backend** | Designing APIs, data-intensive services, and event-driven architectures. Instrumenting for observability with clear SLIs and SLOs, optimising for throughput and cost. |
 | **Frontend** | Building web & desktop (Electron) surfaces with component-driven architecture, performance budgets, and real-user monitoring — fast, measurable UX. |
 | **DevOps** | CI/CD pipelines, container orchestration, infrastructure as code. Shipping frequently and safely with DORA metrics (deployment frequency, lead time, change failure rate). |
-| **Security / hacker mindset** | Threat modelling, secure SDLC integration, internal tools for security validation. Reducing mean time to detect and remediate vulnerabilities. |
+| **Security** | Threat modelling, secure SDLC integration, internal tools for security validation. Reducing mean time to detect and remediate vulnerabilities. |
 | **I/O & DIY** | Low-level tinkering, firmware-adjacent prototyping, hardware–software integration — rapid feasibility spikes to de-risk business bets. |
 | **C-level / leadership** | Roadmaps aligned with business KPIs, risk management, org-wide transparency. Driving engineering velocity while keeping quality metrics in the green. |
 
