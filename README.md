@@ -147,7 +147,7 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 ## Metrics infographic
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/github-metrics.svg" alt="GitHub metrics infographic" width="920" />
+<img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/github-metrics.svg?v=2026063007" alt="GitHub metrics infographic" width="920" />
 </p>
 
 ## Pinned repositories
