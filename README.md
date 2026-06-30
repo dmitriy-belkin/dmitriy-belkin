@@ -12,7 +12,7 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 <p>
 <a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/IT_since-2009-111111?style=for-the-badge&logo=clockify&logoColor=white" alt="Years in IT" /></a>
 <a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Role-Head_of_QA-6f42c1?style=for-the-badge&logo=target&logoColor=white" alt="Role" /></a>
-<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Focus-Automation_%E2%80%A2_API_%E2%80%A2_Mobile_%E2%80%A2_Web-0d1117?style=for-the-badge&logo=testing-library&logoColor=white" alt="Focus" /></a>
+<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Focus-LLM_%E2%80%A2_Development_%E2%80%A2_Automation_%E2%80%A2_API_%E2%80%A2_Mobile_%E2%80%A2_Web-0d1117?style=for-the-badge&logo=testing-library&logoColor=white" alt="Focus" /></a>
 </p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=BC7AF7&center=true&vCenter=true&width=720&height=50&lines=Engineering+across+the+stack+%E2%80%94+from+LLMs+to+metal;Backend+%E2%80%A2+Frontend+%E2%80%A2+DevOps+%E2%80%A2+Security+%E2%80%A2+I%2FO+%26+DIY;Shipping+with+C%E2%80%91level+clarity+%E2%80%94+quality%2C+risk%2C+and+velocity" alt="Typing intro" />

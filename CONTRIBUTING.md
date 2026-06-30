@@ -13,7 +13,7 @@ Direct pushes to `main` work but do **not** add to achievements that require mer
 
 ## Pair programming (optional)
 
-To record shared work in git history, use [co-authored commits](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) on commits that land via a merged PR.
+Use [co-authored commits](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) only for human collaborators — do not add bot or agent accounts (e.g. Cursor) as co-authors; they pollute the contributors graph.
 
 ## Discussions (Galaxy Brain)
 
