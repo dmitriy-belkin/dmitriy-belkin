@@ -32,12 +32,12 @@ jobs:
           curl -fsSL "${BASE_STATS}/api/top-langs/?username=dmitriy-belkin&theme=radical&hide_border=true&layout=compact&langs_count=8&card_width=445" -o "$D/langs.svg"
           curl -fsSL "${BASE_TROPHY}/?username=dmitriy-belkin&theme=radical&no-frame=false&no-bg=false&margin-w=4&rank=-C" -o "$D/trophy.svg"
 
-          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=sitemap-parser&theme=radical&hide_border=false" -o "$D/pin-sitemap-parser.svg"
-          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=platforma-gfc-gui-web-test&theme=radical&hide_border=false" -o "$D/pin-platforma-gfc-gui-web-test.svg"
-          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Backend&theme=radical&hide_border=false" -o "$D/pin-Belkin-LMS-Backend.svg"
-          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=Belkin-LMS-Frontend&theme=radical&hide_border=false" -o "$D/pin-Belkin-LMS-Frontend.svg"
-          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=platform-gfc-appium&theme=radical&hide_border=false" -o "$D/pin-platform-gfc-appium.svg"
-          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=calculator&theme=radical&hide_border=false" -o "$D/pin-calculator.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=iter-lms&theme=radical&hide_border=false" -o "$D/pin-iter-lms.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=blog-js&theme=radical&hide_border=false" -o "$D/pin-blog-js.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=belkin-proxy-extension&theme=radical&hide_border=false" -o "$D/pin-belkin-proxy-extension.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=gitlab-telegram-bot&theme=radical&hide_border=false" -o "$D/pin-gitlab-telegram-bot.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=blog&theme=radical&hide_border=false" -o "$D/pin-blog.svg"
+          curl -fsSL "${BASE_STATS}/api/pin/?username=dmitriy-belkin&repo=mywiki&theme=radical&hide_border=false" -o "$D/pin-mywiki.svg"
 
           for f in "$D"/*.svg; do
             grep -q '<svg' "$f" || { echo "Not valid SVG: $f"; head -c 800 "$f"; exit 1; }

@@ -11,7 +11,7 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 
 <p>
 <a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/IT_since-2009-111111?style=for-the-badge&logo=clockify&logoColor=white" alt="Years in IT" /></a>
-<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Role-Head_of_QA-6f42c1?style=for-the-badge&logo=target&logoColor=white" alt="Role" /></a>
+<a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Role-Engineering_Lead-6f42c1?style=for-the-badge&logo=target&logoColor=white" alt="Role" /></a>
 <a href="https://github.com/dmitriy-belkin"><img src="https://img.shields.io/badge/Focus-LLM_%E2%80%A2_Development_%E2%80%A2_Automation_%E2%80%A2_API_%E2%80%A2_Mobile_%E2%80%A2_Web-0d1117?style=for-the-badge&logo=testing-library&logoColor=white" alt="Focus" /></a>
 </p>
 
@@ -157,14 +157,14 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 <table border="0" cellspacing="8" cellpadding="0" width="100%" style="max-width: 900px; border: none; border-collapse: collapse;">
 <tbody>
 <tr>
-<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/sitemap-parser"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-sitemap-parser.svg" width="275" height="86" alt="sitemap-parser" /></a></td>
-<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/platforma-gfc-gui-web-test"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platforma-gfc-gui-web-test.svg" width="275" height="86" alt="platforma-gfc-gui-web-test" /></a></td>
-<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Backend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Backend.svg" width="275" height="86" alt="Belkin-LMS-Backend" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/iter-lms"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-iter-lms.svg" width="275" height="86" alt="iter-lms" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/blog-js"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-blog-js.svg" width="275" height="86" alt="blog-js" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/belkin-proxy-extension"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-belkin-proxy-extension.svg" width="275" height="86" alt="belkin-proxy-extension" /></a></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/Belkin-LMS-Frontend"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-Belkin-LMS-Frontend.svg" width="275" height="86" alt="Belkin-LMS-Frontend" /></a></td>
-<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/platform-gfc-appium"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-platform-gfc-appium.svg" width="275" height="86" alt="platform-gfc-appium" /></a></td>
-<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/calculator"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-calculator.svg" width="275" height="86" alt="calculator" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/gitlab-telegram-bot"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-gitlab-telegram-bot.svg" width="275" height="86" alt="gitlab-telegram-bot" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/blog"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-blog.svg" width="275" height="86" alt="blog" /></a></td>
+<td align="center" valign="top" width="33%" style="border: none;"><a href="https://github.com/dmitriy-belkin/mywiki"><img src="https://raw.githubusercontent.com/dmitriy-belkin/dmitriy-belkin/main/.github/readme-cards/pin-mywiki.svg" width="275" height="86" alt="mywiki" /></a></td>
 </tr>
 </tbody>
 </table>
