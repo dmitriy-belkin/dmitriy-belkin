@@ -54,11 +54,11 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 
 |  | Workstation | Server | MacBook Pro 16″ |
 | --- | --- | --- | --- |
-| **CPU** | Intel i9-14900K | 2× Xeon E5-2690 v4 (LGA 2011-3) | Apple M1 Pro |
+| **CPU** | Intel i9-14900K | 2× Xeon E5-2690 v4 (LGA 2011-3) | Apple M4 Max |
 | **GPU** | ASUS ROG RTX 4070 Ti | ZOTAC RTX 3050 8 GB | integrated |
-| **RAM** | 96 GB — G.Skill Trident Z5 RGB | DDR4 128 GB | 16 GB |
+| **RAM** | 96 GB — G.Skill Trident Z5 RGB | DDR4 128 GB | 64 GB |
 | **Storage** | 4 TB + 2 TB Samsung 990 Pro M.2 | 2 TB Samsung 970 EVO Plus M.2 | 1 TB |
-| **OS** | Windows 11 | Ubuntu Server | macOS Sonoma |
+| **OS** | Windows 11 | Ubuntu Server | macOS Tahoe |
 
 <details>
 <summary><b>More gear (monitors, audio, farm, homelab extras)</b></summary>
@@ -67,9 +67,9 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 
 **Server / rack context:** ExeGate 4U · MACHINIST X99 · ASUS TUF AX4200 · ASUS MX279H.
 
-**Apple / mobile:** iPhone 16 Pro Max · iPad Air (5th) ×2 · Apple Watch Ultra 2.
+**Apple / mobile:** iPhone 16 Pro Max · iPad Air (5th) · Apple Watch Ultra 2.
 
-**Android / other:** Xiaomi Mi 10T Pro · Mi 12T · Mi 9T · Flipper Zero ×2 · Raspberry Pi · Mi TV Q2 65 · PS4+VR · PS5+VR2.
+**Android / other:** Xiaomi Mi 10T Pro · Mi 12T · Mi 9T · Flipper Zero ×2 · Raspberry Pi · Mi TV Q2 65 · Apple TV · PS4+VR · PS5+VR2.
 
 </details>
 
