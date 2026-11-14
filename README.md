@@ -39,7 +39,7 @@ MAINTAINER — useful extras for automation ideas: WakaTime, Spotify, RSS, lowli
 
 ## A few facts
 
-- 🧑 34 · Building products & engineering organisations since **2009** — from hands-on keyboard to leadership
+- 🧑 35 · Building products & engineering organisations since **2009** — from hands-on keyboard to leadership
 - 🔒 **Professional work** mostly lives in **private repositories** — public repos here are samples, experiments, and tooling, not the whole picture
 - 🎯 **Now:** Engineering leadership — driving delivery, reliability, and platform quality at scale across API, mobile, and web
 - 🌱 **Sharpening:** Python, Go, Java
